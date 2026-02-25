@@ -1,0 +1,99 @@
+.foodOrder {
+  background: #ffffff;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.foodOrder h3 {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.foodOrderImg {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.foodOrderDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.foodOrderDetails p {
+  margin: 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+.foodOrderInputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.foodOrderLabel {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #333;
+  margin-right: 8px;
+}
+
+.foodOrderInputs input {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.foodOrderTotal {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #e67e22;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.foodOrderButtons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.sendButton {
+  background: #27ae60;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.sendButton:hover {
+  background: #219150;
+}
+
+.returnButton {
+  background: #bdc3c7;
+  color: #333;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.returnButton:hover {
+  background: #a7b0b4;
+}
