@@ -16,7 +16,7 @@ export default function AdminStock() {
                         key={item.id}
                         className="flex items-center justify-between bg-white shadow-sm rounded px-4 py-2"
                     >
-                        <p className="font-medium text-gray-800">{item.name}</p>
+                        <p className="font-medium text-gray-800"><FormattedMessage>{item.name}</FormattedMessage></p>
                         <p className="text-sm text-gray-600">
                             <FormattedMessage id="app.available" />: {item.quantity}
                         </p>
