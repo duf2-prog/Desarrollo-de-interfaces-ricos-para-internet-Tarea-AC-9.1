@@ -34,7 +34,7 @@ function FoodOrder(props: FoodOrderProps) {
 
             <img
                 className="w-full h-64 object-cover"
-                src={`/images/${props.food.image}`}
+                src={`${import.meta.env.BASE_URL}images/${props.food.image}`}
                 alt={props.food.name}
             />
 
